@@ -10,6 +10,9 @@ public class Name
 				
 				StringManipulator strm = new StringManipulator();
 				
-				System.out.print(strm.noVowels("daneiil"));
+				System.out.println(strm.noVowels("Daniel"));
+			
+				System.out.println(strm.reverse("Daniel"));
+				
 			}
 }
